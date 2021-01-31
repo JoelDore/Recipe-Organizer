@@ -8,32 +8,38 @@
 </div>
 
 ### All the recipes you've been dying to try
+
 ### All of your favorites
+
 ### All in one convenient place.
+
 <br>
 
-## Table of Contents  
-* [Features](#Features)  
-* [Installation](#Installation)  
-* [Usage](#Usage)  
-* [Technologies](#Technologies-Used)
-* [Contributing](#Contributing)  
-* [Reflection](#Reflection)
-* [Future Scope](#Future-Scope)  
-* [Questions](#Questions)
+## Table of Contents
+
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Technologies](#Technologies-Used)
+- [Contributing](#Contributing)
+- [Reflection](#Reflection)
+- [Future Scope](#Future-Scope)
+- [Questions](#Questions)
 
 ## Features
+
 - Secure Login using Passport.js
 - User/recipe info stored in database using Sequelize
 - Recipe images retrieved automatically via Unsplash API
 
 ## Installation
+
 1. Install npm packages:
-    ```
-    npm i express sequelize passport
-    ```
+   ```
+   npm i express sequelize passport
+   ```
 2. Be sure to update `config.json` with your development database credentials
-3. Create (empty) database `recipeEZ_db` in your preferred database tool  using provided `schema.sql`
+3. Create (empty) database `recipeEZ_db` in your preferred database tool using provided `schema.sql`
 4. Run `node server` in terminal and open `localhost:8080` (or your configured server port) in your browser
 
 ## Usage
@@ -48,6 +54,7 @@ Currently deployed with [Heroku](https://recipez417.herokuapp.com/home)
    <img src="./public/images/screenshot-mobile.png" alt="Mobile Screenshot" width="50%" />
 
 ## Technologies Used
+
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)
 - [Passport.js](https://www.passportjs.org/)
@@ -55,21 +62,27 @@ Currently deployed with [Heroku](https://recipez417.herokuapp.com/home)
 - [Unsplash Image API](https://unsplash.com/developers)
 
 ## Contributing
+
 Contributions welcome!
 
-1. Fork this repository  
-2. Create a new branch  
-3. Commit/push your changes  
-4. Create a new pull request  
+1. Fork this repository
+2. Create a new branch
+3. Commit/push your changes
+4. Create a new pull request
 
 ## Reflection
+
 - Used MVC model to structure public HTML/CSS/JS, Sequelize models, and server-side API routes
 - Deepened understanding/ability to prioritize tasks and produce MVP more quickly
-- Increased familiarity with agile workflow and git conflicts
+- Increased familiarity with agile workflow and resolving git conflicts
 
 ## Future Scope
+
+- Easily update/delete any recipe with `Edit`/`Delete` buttons in recipe view
 - Add option for user to upload custom images for their recipes
 - Update database to store recipe ingredients/instructions
+- Allow customizable categories
+- Share recipes with other Recip-EZ users
 
 ## Questions  
 If you have any questions, feel free to create an [Issue](https://github.com/joeldore/Recipe-Organizer/issues)
