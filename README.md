@@ -43,7 +43,7 @@
 4. Run `node server` in terminal and open `localhost:8080` (or your configured server port) in your browser
 
 ## Usage
-Currently deployed with [Heroku](https://recipez417.herokuapp.com/home)
+Currently deployed with [Heroku](https://recip-ez-417.herokuapp.com/home)
 
 1. Login with username & password, or sign up for a free account
 2. Click `Add Recipe` button to enter a new recipe reference
